@@ -72,12 +72,14 @@
 1. **克隆项目**
    ```bash
    git clone https://github.com/Zen-Pure/address-book.git
-2.**导入项目**
+   
+2. **导入项目**
 
 使用 IntelliJ IDEA 或 Eclipse 打开项目
 
 确保 JDK 8 或更高版本已配置
-3.**运行程序**
+
+3. **运行程序**
 
 找到 src/addressbook/Main.java
 
@@ -86,22 +88,26 @@
 ### 方式二：命令行运行
 
 **进入项目目录**
+
 cd address-book
 
-**编译所有 Java 文件**
-（需要 pinyin4j 库在 classpath 中）
+**编译所有 Java 文件**（需要 pinyin4j 库在 classpath 中）
+
 javac -cp ".;lib/*" src/addressbook/**/*.java src/addressbook/*.java
 
 **运行程序**
+
 java -cp ".;src;lib/*" addressbook.Main
 
 ⚠️ 注意：本项目依赖 pinyin4j 库，请确保将其添加到项目的 classpath 中。
 
 🔑 默认登录账号
+
 账号	密码
 2024252206	123456
 
 💾 数据存储
+
 联系人数据：addressbook.dat（序列化文件）
 
 回收站数据：trash.dat
@@ -109,12 +115,15 @@ java -cp ".;src;lib/*" addressbook.Main
 数据文件保存在程序运行目录下，请勿手动修改，以免数据损坏
 
 📝 许可证
+
 本项目采用 MIT License 开源协议。
 
 👤 作者
+
 Zen-Pure
 
 🙏 致谢
+
 Pinyin4j - 中文拼音转换库
 
 如果这个项目对你有帮助，欢迎 Star ⭐ 支持！
